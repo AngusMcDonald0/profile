@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1 {
+  color: rgb(6, 81, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  color: rgb(18, 148, 144);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(36, 36, 36);
+  font-size: 16px;
+  line-height: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: rgb(87, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(191, 19, 99);
+  text-decoration: underline;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  border-radius: 25%;
+}
+
+.card-grey {
+  text-align: center;
+  background-color: rgb(234, 234, 234);
+  border-radius: 1%;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  margin: 10px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.centre {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
