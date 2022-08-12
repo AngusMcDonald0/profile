@@ -18,6 +18,10 @@ body {
   font-size: 16px;
   line-height: 16px;
   font-family: 'Open Sans', sans-serif;
+  background-image: url('images/sutherland.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 a {
@@ -43,11 +47,12 @@ img {
   border-radius: 1%;
   padding-bottom: 10px;
   padding-top: 15px;
+  margin: 10px;
 }
 .card-white {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 30px;
-  border: 1px solid lightgrey;
+  border: 2px solid lightgrey;
   border-radius: 2%;
   margin: 10px;
 }
@@ -58,10 +63,9 @@ img {
 }
 
 button {
-  height: 120px;
-  width: 120px;
-  background-color: red;
-  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 0, 0);
   border-radius: 50%;
   text-align: center;
   font-size: 24px;
@@ -69,12 +73,22 @@ button {
 }
 
 .footer {
-  background: white;
+  background: rgb(255, 255, 255, 0);
   padding: 30px;
-  border: 1px solid lightgrey;
-  border-radius: 2%;
   margin: 10px;
   font-weight: bold;
+  font-size: 30px;
+}
+
+.black {
+  color: black;
+}
+
+.black:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
 }
 
 .centre {
@@ -85,6 +99,10 @@ button {
   list-style: none;
   padding-left: 0px;
   line-height: 20px;
+}
+
+li {
+  display: inline-block;
 }
 
 @media (max-width: 960px) {
